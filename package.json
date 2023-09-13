@@ -1,0 +1,20 @@
+{
+  "name": "tinqjs-template",
+  "version": "0.2.7",
+  "description": "",
+  "main": "index.js",
+  "author": "bejorock",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "lib/*",
+    "services/*"
+  ],
+  "scripts": {
+    "prestart": "rm -rf /tmp/frontend && rm -rf /tmp/backend && rm -rf /tmp/frontend-nuxt",
+    "start": "tinqjs-cli start --http.host=localhost"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
