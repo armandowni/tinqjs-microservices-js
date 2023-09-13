@@ -1,0 +1,10 @@
+{
+  "name": "frontend-angular",
+  "main": "index.js",
+  "liveReload": true,
+  "noBuild": true,
+  "enabled": true,
+  "http": {
+    "basePath": "/angularjs"
+  }
+}
