@@ -1,6 +1,7 @@
 {
   "name": "frontend-angular",
   "version": "0.0.0",
+  "module": "Commonjs",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,7 +18,11 @@
     "@angular/forms": "^16.2.0",
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/platform-server": "^16.2.5",
     "@angular/router": "^16.2.0",
+    "@nguniversal/express-engine": "^16.2.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

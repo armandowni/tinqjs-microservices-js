@@ -1,23 +1,36 @@
 {
   "compilerOptions": {
     "target": "ES2018",
-    "jsx": "preserve",
     "module": "ESNext",
     "moduleResolution": "Node",
-    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM", "ES5", "ES6"],
+    "lib": [
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "DOM"
+    ],
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true,
-    "strict": false,
+    "strict": true,
     "noEmit": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ]
     },
-    "types": []
+    "types": [
+      "@nuxt/types",
+      "@types/node"
+    ]
   },
-  "exclude": ["node_modules", ".nuxt"]
+  "exclude": [
+    "node_modules",
+    ".nuxt",
+    "dist"
+  ]
 }

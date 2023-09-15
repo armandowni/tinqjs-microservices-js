@@ -11,7 +11,7 @@
     "services/*"
   ],
   "scripts": {
-    "prestart": "rm -rf /tmp/frontend && rm -rf /tmp/backend && rm -rf /tmp/frontend-nuxt",
+    "prestart": "rm -rf /tmp/frontend-next && rm -rf /tmp/backend && rm -rf /tmp/frontend-angular && rm -rf /tmp/frontend-nuxt",
     "start": "tinqjs-cli start --http.host=localhost"
   },
   "devDependencies": {

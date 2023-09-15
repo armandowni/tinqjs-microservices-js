@@ -3,16 +3,6 @@
 @tailwind utilities;
 
 body {
-  /* color: rgb(var(--foreground-rgb)); */
+  @apply text-white;
   @apply bg-black;
-}
-
-.title {
-  @apply text-2xl;
-  @apply font-bold;
-}
-.titleWAction {
-  @apply flex;
-  @apply justify-between;
-  @apply items-center;
 }

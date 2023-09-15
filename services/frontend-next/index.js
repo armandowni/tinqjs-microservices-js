@@ -14,9 +14,8 @@ app.set("trust proxy", 1);
 main(async () => {
   await nextApp.prepare();
 
-  app.use((req, res) => {
+  app.use("/next", (req, res) => {
     const parsedUrl = parse(req.url, true);
-
     handle(req, res, parsedUrl);
   });
 
@@ -26,4 +25,3 @@ main(async () => {
     console.log(`Service frontend nextjs ready`);
   });
 });
-

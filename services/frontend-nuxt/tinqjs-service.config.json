@@ -1,10 +1,10 @@
 {
-  "name": "frontend-nuxt",
+  "name": "frontend-next",
   "main": "index.js",
-  "liveReload": true,
+  "liveReload": false,
   "noBuild": true,
   "enabled": true,
   "http": {
-    "basePath": "/nuxtjs"
+    "basePath": "/nuxt"
   }
 }
